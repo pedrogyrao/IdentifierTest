@@ -14,5 +14,4 @@ install:
   - "[ $GCC = gcc ] && export GCC=gcc || true"
 script:
   - cd src/identifier
-  cppcheck src/identifier.c
   - make
