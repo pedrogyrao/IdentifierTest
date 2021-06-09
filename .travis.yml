@@ -17,4 +17,4 @@ script:
   - cppcheck identifier.c
   - cd ..
   - make
-  - valgrind ./all_tests
+  - valgrind ./all_tests.out
