@@ -71,3 +71,5 @@ clean:
 
 ci: CFLAGS += -Werror
 ci: compile
+
+$(error aaaaaaaaaaaa)
