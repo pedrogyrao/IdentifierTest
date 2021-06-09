@@ -64,12 +64,10 @@ compile:
 	$(C_COMPILER) $(CFLAGS) $(INC_DIRS) $(SYMBOLS) $(SRC_FILES1) -o $(TARGET1)
 
 run:
-	- ./$(TARGET1) -v
+	./$(TARGET1) -v
 
 clean:
 	$(CLEANUP) $(TARGET1)
 
 ci: CFLAGS += -Werror
 ci: compile
-
-$(error aaaaaaaaaaaa)
