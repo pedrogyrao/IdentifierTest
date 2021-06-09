@@ -13,5 +13,7 @@ addons:
 install:
   - "[ $GCC = gcc ] && export GCC=gcc || true"
 script:
-  - cd src/identifier
+  - cd src/identifier/src
+  - cppcheck identifier.c
+  - cd ..
   - make
