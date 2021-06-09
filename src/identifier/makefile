@@ -29,6 +29,8 @@ UNITY_ROOT=../..
 
 CFLAGS=-std=c99
 CFLAGS += -Wall
+CFLAGS += -Werror
+CFLAGS += -g
 CFLAGS += -Wextra
 CFLAGS += -Wpointer-arith
 CFLAGS += -Wcast-align
