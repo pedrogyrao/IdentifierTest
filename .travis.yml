@@ -18,3 +18,4 @@ script:
   - cd ..
   - make
   - valgrind ./all_tests.out
+  - gcov identifier.c
