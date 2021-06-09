@@ -10,6 +10,8 @@ addons:
       - gcc
 install:
   - "[ $GCC = gcc ] && export GCC=gcc || true"
+  - sudo apt-get install -qq cppcheck
 script:
   - cd src/identifier
+  cppcheck src/identifier.c
   - make
