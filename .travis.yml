@@ -14,8 +14,8 @@ install:
   - "[ $GCC = gcc ] && export GCC=gcc || true"
 script:
   - cd src/identifier/src
-  - cppcheck identifier.c
+  - cppcheck crypt.c
   - cd ..
   - make
   - valgrind ./all_tests.out
-  - gcov identifier.c
+  - gcov crypt.c
