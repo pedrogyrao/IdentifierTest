@@ -1,0 +1,14 @@
+#include "unity.h"
+#include "unity_fixture.h"
+
+TEST_GROUP_RUNNER(AES)
+{
+  RUN_TEST_CASE(AES, TestAES_ENC_128);
+  RUN_TEST_CASE(AES, TestAES_DEC_128);
+
+  RUN_TEST_CASE(AES, TestAES_ENC_192);
+  RUN_TEST_CASE(AES, TestAES_DEC_192);
+
+  RUN_TEST_CASE(AES, TestAES_ENC_256);
+  RUN_TEST_CASE(AES, TestAES_DEC_256);
+}

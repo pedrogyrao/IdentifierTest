@@ -2,9 +2,11 @@
 
 static void RunAllTests(void)
 {
-  RUN_TEST_GROUP(ValidS);
-  RUN_TEST_GROUP(ValidF);
-  RUN_TEST_GROUP(Identifier);
+  RUN_TEST_GROUP(XTEA);
+  RUN_TEST_GROUP(AES);
+  RUN_TEST_GROUP(BLOWFISH);
+  RUN_TEST_GROUP(CRYPT);
+
 }
 
 int main(int argc, const char * argv[])

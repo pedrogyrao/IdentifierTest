@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "unity_fixture.h": "c",
+        "crypt.h": "c",
+        "aes.h": "c",
+        "unity.h": "c"
+    }
+}
